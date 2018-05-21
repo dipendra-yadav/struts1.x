@@ -15,10 +15,8 @@
 			<forward name="success" path="/HelloWorld.jsp" />
 
 		</action>
-
-		<!-- <action path="/Welcome" type="org.apache.struts.actions.ForwardAction"
-			parameter="/pages/Welcome.jsp" /> -->
-
+		<action path="/Welcome" type="org.apache.struts.actions.ForwardAction"
+			parameter="/pages/Welcome.jsp" />
 	</action-mappings>
 
 </struts-config>
