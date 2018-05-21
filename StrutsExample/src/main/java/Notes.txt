@@ -1,3 +1,12 @@
+Struts 1.x is the most famous, classic and proven Model-View-Contraller (MVC) framework. 
+Often times, you will listen something like, meaningless to learn Struts 1.x, it’s a dead framework. 
+However, with the huge success of Struts 1.x in early day, there are still hundreds of thousand companies are 
+implemented Struts 1.x, and never consider upgrade, so the Struts 1.x is still causing many maintainability.
+Struts 1.x is a complete web framework, provides complete web form components, validator, internalization, error handling, tiles layout, low learning curve and easy to implement it. In this tutorials, it provides many step by step examples and explanations on using Struts 1.x MVC framework.
+
+
+
+Lab:Struts Hello   world example
 In this tutorial we show you how to develop a hello world web application using classic Struts 1.3 framework.
 
 Tools and technologies used :
