@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" 
+"http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+	<form-beans>
+		<form-bean name="helloWorldForm" type="com.deependra.common.form.HelloWorldForm" />
+	</form-beans>
+
+	<action-mappings>
+		<action path="/helloWorld" type="com.deependra.common.action.HelloWorldAction"
+			name="helloWorldForm">
+			<forward name="success" path="/HelloWorld.jsp" />
+
+		</action>
+	</action-mappings>
+
+</struts-config>
+
+<!-- Define a form bean named “helloWorldForm” and action controller mapping 
+	“HelloWorldAction“, match the /helloWorld web path to HelloWorldAction. It’s 
+	means all the request from /helloWorld web path will redirect to HelloWorldAction. 
+	The “name” attribute is use to define which action form will pass to this 
+	HelloWorldAction. -->
+	
+	
