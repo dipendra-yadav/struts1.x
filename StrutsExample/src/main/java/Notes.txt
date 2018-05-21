@@ -54,11 +54,10 @@ Eclipse 3.6
   
 references:
 http://www.mkyong.com/struts/struts-hello-world-example/
-
+====================================================================================================================
 Lab2:Configure a welcome page in Struts
-
 Every website need a welcome or default page as an entry point. Here’s 3 ways to configure a welcome page in Struts.
-1. index.jsp
+1.  index.jsp
     The simplest way is create a “index.jsp” page and put it same level with the WEB-INF folder, project root folder.
 
     Access the project root
@@ -97,6 +96,29 @@ struts-config.xml
 	</action-mappings>
 
 </struts-config>
+
+==================================================================================================================
+Lab3:Struts – Multiple configuration files example
+     Many developers like to put all Struts related stuff (action, form) into a single Struts configuration file. 
+     It’s fast for the initial development but bad for the future maintenance, and may be those developers are not 
+     aware of the Struts  allows multiple configuration files feature.
+     
+    
+    
+Note: 
+Large Struts development project which involve more+ modules. 
+putting all configuration into a single Struts configuration file (struts-config.xml).
+The struts-config.xml will keep growing  fast, every update to this configuration file will take few minutes, 
+and even wait half an hour for a single debugging deployment in Eclipse IDE. 
+This is a serious performance issue and causing the project keep delay the production date. 
+Please split the Struts configuration details into different modules, Struts can do it easily.
+
+references:
+http://www.mkyong.com/struts/struts-multiple-configuration-files-example/
+
+==========================================================================================================
+
+
 
 
 
